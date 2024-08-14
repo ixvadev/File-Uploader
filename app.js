@@ -62,6 +62,6 @@ function uploadFile(name) {
 			uploadedArea.insertAdjacentHTML("afterbegin", uploadedHTML); //remove this line if you don't want to show upload history
 		}
 	});
-	let data = new FormData(form); //FormData is an object to easily send form data
-	xhr.send(data); //sending form data
+	let data = new FormData(form); 
+	xhr.send(data); 
 }
